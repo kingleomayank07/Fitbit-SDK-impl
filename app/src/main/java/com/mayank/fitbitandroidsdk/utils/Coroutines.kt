@@ -2,6 +2,13 @@ package com.mayank.fitbitandroidsdk.utils
 
 import kotlinx.coroutines.*
 
+/***
+ * created by Mayank Malhotra
+ ***/
+
+/***
+Higher Order Function to use Coroutines simply just use Coroutines.io{} for background thread and Coroutines.main{} for main thread
+ ***/
 object Coroutines {
 
     private val job: Job = Job()
