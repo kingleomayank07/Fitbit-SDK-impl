@@ -18,12 +18,14 @@ import com.mayank.fitbitandroidsdk.utils.ViewModelFactory
 import com.mayank.fitbitandroidsdk.ui.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.fragment_home.*
 
+//region variables
 const val bearer = "Bearer"
 const val authorization = "Basic MjJDRERNOmRlZjIwZjFmZTVlMDBkMWUzNjJlZTA4NDM2MTQ5ZmI3"
 const val clientID = "22CDDM"
 const val grant_type = "authorization_code"
 const val redirect_uri = "myapp://logincallback"
 const val heartRate = "Heart Rate from SDK"
+//endregion
 
 class HomeFragment : Fragment(R.layout.fragment_home) {
 
